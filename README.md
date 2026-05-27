@@ -49,7 +49,7 @@ The simulations are seeded from a dataset of fitted single-cell parameters
 distributed with the paper.
 
 1. Download `All_ligand_codon_2023.mat` from https://datadryad.org/downloads/file_stream/4082734  , data files of the
-   paper: https://www.nature.com/articles/s41467-025-60901-3
+   paper: https://www.nature.com/articles/s41467-025-60901-3. This is the data file for all single-cell parameters, to run simulation of NFkB signaling dynamics.
 2. Place it in the **repository root** (the same folder as `run_me_main_pub.m`).
 
 Because several functions load this file by name only
