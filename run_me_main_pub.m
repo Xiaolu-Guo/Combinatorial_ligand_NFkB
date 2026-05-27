@@ -174,7 +174,7 @@ if 0
         ligand2 = all_pairs{i_pair}{2};
 
         % Sim0620_CpG_PolyIC_sc_signergy_different_dose
-        save_metric_name = strcat('Sim1008_',ligand1,'_',ligand2,'_sc_signergy_different_dose.mat');
+        save_metric_name = strcat('Sim1008_',ligand1,'_',ligand2,'_sc_synergy_different_dose.mat');
         load(strcat(data_save_file_path ,save_metric_name))
 
 

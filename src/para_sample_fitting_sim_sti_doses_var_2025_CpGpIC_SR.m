@@ -65,9 +65,8 @@ gene_info.gene_parameter_value_vec_genotype = cell(0);
 %% parameter from the data
 
 if 1
-    data_save_file_path_1 = '../revision/codes/';%_fay_parameter/';
     
-    load(strcat(data_save_file_path_1,'All_ligand_codon_2023.mat'))% data,collect_feature_vects,metrics));
+    load('All_ligand_codon_2023.mat')% data,collect_feature_vects,metrics));
     
     data_fitting = data;
     clear data
